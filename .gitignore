@@ -1,0 +1,93 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+.env
+.env*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb.log
+
+# NetworkX / graph data files 
+*.gexf
+*.graphml
+*.gml
+*.net
+*.pajek
+*.yaml
+*.gpickle
+*.pickle
+*.bz2
+*.gz
+
+# Large data files
+*.csv
+*.tsv
+*.json
+*.parquet
+*.feather
+!data/*.csv      # keep small example data
+!data/*.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache
+.ruff_cache/
+
+# Documentation
+_site/
+docs/_build/

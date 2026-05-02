@@ -58,7 +58,7 @@ pip install -i https://mirror-pypi.runflare.com/simple torch matplotlib scipy ne
 ### 📁 Project Structure
 ```
 networkx-examples/
-├── examples/          
+├── scripts/          
 ├── requirements.txt    
 ├── README.md
 └── LICENSE
